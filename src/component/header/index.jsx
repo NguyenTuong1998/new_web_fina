@@ -11,7 +11,7 @@ export default function Header() {
                         src={logo}
                         width="200"
                         height="45"
-                        className="d-inline-block align-top ml-4"
+                        className="d-inline-block align-top"
                         alt="React Bootstrap logo"
                     />
                 </Navbar.Brand>

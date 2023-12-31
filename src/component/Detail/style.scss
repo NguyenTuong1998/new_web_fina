@@ -1,0 +1,99 @@
+.col-inner {
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+    margin: 1rem 0;
+    position: relative;
+
+    .laisuat {
+      position: absolute;
+      top: 5px;
+      left: -8px;
+      height: 40px;
+    }
+
+    .box-vay {
+      width: 400px;
+      max-width: 400px;
+      min-width: 300px;
+
+      .logo-vay {
+        img {
+          height: 100px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+      }
+
+      .title-vay {
+        font-size: 20px;
+        font-weight: 900;
+        color: #04a927;
+      }
+
+      .info-offer {
+        margin-bottom: 10px;
+        padding: 10px 10px 0;
+
+        .info-offer {
+          margin-bottom: 5px;
+        }
+
+        .flex-custom {
+          justify-content: space-between;
+          display: flex;
+
+          i {
+            margin-right: 10px;
+          }
+
+          .field-name {
+            font-weight: 700;
+          }
+
+          .field-value {}
+        }
+      }
+
+      .btn-vay {
+
+        padding: 5px 10px;
+
+        a {
+          text-decoration: none;
+
+          button {
+            width: 100%;
+            background-color: #04a927;
+            box-shadow: 0 4px 0 0 #098b25;
+            border-radius: 5px;
+            color: #fff;
+            margin: 0;
+            border: none;
+            margin-bottom: 1rem !important;
+            font-weight: bolder;
+            line-height: 2.4em;
+          }
+        }
+      }
+    }
+  }
+
+
+  .content-box{
+    margin: 1rem 0;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 4%);
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .d-flex{
+    flex-wrap: wrap;
+  }
+  

@@ -8,7 +8,6 @@ const limit = 5
 export default function ProductItem() {
     const [limitList, setLimitList] = useState(limit)
     const [listProduct, setListProduce] = useState([])
-
     useEffect(() => {
         setListProduce(listProducts.slice(0, limitList))
     }, [limitList])
@@ -27,18 +26,18 @@ export default function ProductItem() {
                 <div className='list-box'>
                     {listProduct.map((item) => (
                         <>
-                            <div className='col-inner '>
-                                <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/id=${item.id}`}>
+                            <div key={item.id} className='col-inner '>
+                                <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${item.id}`}>
                                     <img className='laisuat' src={image} alt="#" />
                                 </Link>
                                 <div className='box-vay'>
-                                    <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/id=${item.id}`}>
+                                    <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${item.id}`}>
                                         <div className='logo-vay text-center'>
                                             <img src="https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png"></img>
                                         </div>
                                     </Link>
-                                    <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/id=${item.id}`}><h1 className='title-vay text-center'>{item.nameProduct}</h1></Link>
-                                    <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/id=${item.id}`}>
+                                    <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${item.id}`}><h1 className='title-vay text-center'>{item.nameProduct}</h1></Link>
+                                    <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${item.id}`}>
 
                                         {/* {item.descProduct.split(",").map((items, index) => { */}
 
