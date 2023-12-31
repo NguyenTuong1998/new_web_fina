@@ -1,0 +1,44 @@
+.all-foot{
+    background-color: rgb(249, 249, 249);
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        
+        // .logo{
+        //     width: 100%;
+        // }
+        // .social{
+        //     width: 50%;
+        // }
+        img{
+            height: 100px;
+            width: 200px;
+        }
+        .social{
+            i{
+                padding: 0 5px;
+                font-size: 1.2rem;
+                color: #04a927; 
+                cursor: pointer;
+                &:hover{
+                    // opacity: 0.5;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    
+    .about{
+        margin-top: 4px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #e6e6e6;
+        p{
+            color: #999999;
+            font-size: 13px;
+        }
+        
+    }
+}
