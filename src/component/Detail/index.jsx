@@ -15,8 +15,8 @@ export default function Detail() {
   }, [])
   return (
     <div className='container'>
-      <div className='d-flex'>
-        <div className='box-vay'>
+      <div className='detail_item'>
+        <div className='box-vay-item'>
           
           <div className='col-inner '>
             <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${product.id}`}>
@@ -70,9 +70,9 @@ export default function Detail() {
               </div>
             </div>
           </div>
-        </div>
         <div className='content'>
           <Content />
+        </div>
         </div>
       </div>
     </div>
