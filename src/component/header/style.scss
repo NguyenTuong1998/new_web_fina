@@ -5,7 +5,6 @@
     
 
     .contact {
-        position: absolute;
         right: 10%;
     }
 
@@ -17,21 +16,17 @@ button {
 
 @media (max-width: 876px) {
     .shadow {
-        display: flex;
-        justify-content: space-between;
         img {
-            position: relative;
             width: 40% !important;
         }
     
         .menu{
-            position: relative;
-            top: 25%;
-            right: -5%;
+          position: fixed;
+          top: 2.7%;
+          right: 4%;
         }
         .contact {
-            position: relative;
-            left: 65% !important ;
+            text-align: right;
         }
     
     }
