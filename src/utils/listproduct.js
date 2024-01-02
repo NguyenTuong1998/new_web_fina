@@ -68,5 +68,33 @@ export const listProducts = [
         nameProduct: "Vamo",
         descProduct: "1.000.000 - 17.000.000đ, 91 - 182 ngày, 18%/năm",
         linkProduct: "https://hyperlead.tech/hlhK9H",
+    },
+    {
+        id: 10,
+        imageProduct: "https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png",
+        nameProduct: "Vamo",
+        descProduct: "1.000.000 - 17.000.000đ, 91 - 182 ngày, 18%/năm",
+        linkProduct: "https://hyperlead.tech/hlhK9H",
+    },
+    {
+        id: 10,
+        imageProduct: "https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png",
+        nameProduct: "Vamo",
+        descProduct: "1.000.000 - 17.000.000đ, 91 - 182 ngày, 18%/năm",
+        linkProduct: "https://hyperlead.tech/hlhK9H",
+    },
+    {
+        id: 10,
+        imageProduct: "https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png",
+        nameProduct: "Vamo",
+        descProduct: "1.000.000 - 17.000.000đ, 91 - 182 ngày, 18%/năm",
+        linkProduct: "https://hyperlead.tech/hlhK9H",
+    },
+    {
+        id: 10,
+        imageProduct: "https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png",
+        nameProduct: "Vamo",
+        descProduct: "1.000.000 - 17.000.000đ, 91 - 182 ngày, 18%/năm",
+        linkProduct: "https://hyperlead.tech/hlhK9H",
     }
 ]

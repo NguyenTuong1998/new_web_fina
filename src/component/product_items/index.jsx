@@ -8,13 +8,18 @@ const limit = 5
 export default function ProductItem() {
     const [limitList, setLimitList] = useState(limit)
     const [listProduct, setListProduce] = useState([])
+    const [statusProduct, setStatusProduct] = useState(true)
     useEffect(() => {
         setListProduce(listProducts.slice(0, limitList))
     }, [limitList])
 
     const loadProduct = () => {
+        if(limitList + limitList >= listProduct.length){
+            setStatusProduct(false)
+        }else setStatusProduct(true)
         setLimitList(limitList + limit)
     }
+    const hideProduct = () => setLimitList(5)
     return (
         <>
             <div class="large-12">
@@ -82,7 +87,15 @@ export default function ProductItem() {
                     ))}
                 </div>
             </div>
-                <div style={{ cursor:"pointer" ,textAlign: "center", textDecoration: "underline", textDecorationColor: "#04a927"}} className='d-block my-3' onClick={loadProduct}>Xem thêm</div>
+            {/* {statusProduct ?  */}
+                <>
+                 <div  style={{ cursor:"pointer", fontWeight: 500 ,textAlign: "center", textDecoration: "underline", textDecorationColor: "#04a927"}} className='d-block my-3 load_data' onClick={loadProduct}>Xem thêm gói vay</div>
+                </>
+                {/* :
+                <>
+                 <div  style={{ cursor:"pointer", fontWeight: 500 ,textAlign: "center", textDecoration: "underline", textDecorationColor: "#04a927"}} className='d-block my-3 load_data' onClick={hideProduct}>Thu gọn</div>
+                </>
+            } */}
         </>
 
     )

@@ -342,7 +342,7 @@
 
 .customer {
   text-align: right;
-  margin-right: 3rem;
+  padding-right: 1rem;
   font-size: 16px;
   font-weight: bold;
   -webkit-animation: my 700ms infinite;
@@ -405,4 +405,10 @@
   100% {
     color: #04a927;
   }
+}
+
+
+.load_data{
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
 }

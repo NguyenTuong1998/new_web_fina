@@ -1,9 +1,8 @@
 .shadow {
     img {
-        position: relative;
-
         width: 100%;
     }
+    
 
     .contact {
         position: absolute;
@@ -18,14 +17,21 @@ button {
 
 @media (max-width: 876px) {
     .shadow {
+        display: flex;
+        justify-content: space-between;
         img {
             position: relative;
             width: 40% !important;
         }
     
+        .menu{
+            position: relative;
+            top: 25%;
+            right: -5%;
+        }
         .contact {
             position: relative;
-            left: 60% !important ;
+            left: 65% !important ;
         }
     
     }
