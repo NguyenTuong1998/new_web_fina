@@ -38,7 +38,7 @@ export default function ProductItem() {
                                 <div className='box-vay'>
                                     <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${item.id}`}>
                                         <div className='logo-vay text-center'>
-                                            <img src="https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png"></img>
+                                            <img src={item.imageProduct}></img>
                                         </div>
                                     </Link>
                                     <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${item.id}`}><h1 className='title-vay text-center'>{item.nameProduct}</h1></Link>

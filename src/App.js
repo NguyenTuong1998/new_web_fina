@@ -1,7 +1,6 @@
 import './App.scss';
 import Header from './component';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProductItem from './component/product_items';
 import Detail from './component/Detail';
 import { Routes, Route } from 'react-router-dom';
 import Headers from './component/header';

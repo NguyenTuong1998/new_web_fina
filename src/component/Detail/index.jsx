@@ -19,17 +19,17 @@ export default function Detail() {
         <div className='box-vay-item'>
           
           <div className='col-inner '>
-            <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${product.id}`}>
+            <Link style={{ textDecoration: "none", color: '#000' }}>
               <img className='laisuat' src={image} alt="#" />
             </Link>
             <div className='box-vay'>
-              <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${product.id}`}>
+              <Link style={{ textDecoration: "none", color: '#000' }}>
                 <div className='logo-vay text-center'>
-                  <img src="https://vaysieutoc.vn/wp-content/uploads/2023/08/onecredit-logo.png"></img>
+                  <img src={product.imageProduct}></img>
                 </div>
               </Link>
-              <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${product.id}`}><h1 className='title-vay text-center'>{product.nameProduct}</h1></Link>
-              <Link style={{ textDecoration: "none", color: '#000' }} to={`detail/${product.id}`}>
+              <Link style={{ textDecoration: "none", color: '#000' }}><h1 className='title-vay text-center'>{product.nameProduct}</h1></Link>
+              <Link style={{ textDecoration: "none", color: '#000' }}>
 
                 {/* {product.descProduct.split(",").map((items, index) => { */}
 
@@ -71,7 +71,7 @@ export default function Detail() {
             </div>
           </div>
         <div className='content'>
-          <Content />
+          <Content Product = {product} />
         </div>
         </div>
       </div>
