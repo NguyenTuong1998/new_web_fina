@@ -15,3 +15,19 @@
 button {
     border-color: transparent !important;
 }
+
+@media (max-width: 876px) {
+    .shadow {
+        img {
+            position: relative;
+    
+            width: 90% !important;
+        }
+    
+        .contact {
+            position: absolute;
+            right: -199999999999990px !important ;
+        }
+    
+    }
+  }

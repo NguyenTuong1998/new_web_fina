@@ -9,10 +9,10 @@ export default function Header() {
                 <Navbar.Brand href="/">
                     <img
                         src={logo}
-                        width="500"
+                        // width="500"
                         height="45"
                         className="d-inline-block align-top"
-                        alt="React Bootstrap logo"
+                        alt="logo"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle className='menu' aria-controls="basic-navbar-nav" />
