@@ -4,6 +4,8 @@ import Header from './header';
 import Banner from './banner';
 import ProductItem from './product_items';
 import Footer from './footer';
+import Need from './Need';
+import Procedure from './procedure';
 
 const App = () => {
     const [index, setIndex] = useState(0);
@@ -15,6 +17,8 @@ const App = () => {
         <div>
             <Banner />
             <ProductItem />
+            <Need/>
+            <Procedure/>
         </div>
     );
 };

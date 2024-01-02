@@ -1,0 +1,51 @@
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+.procedure{
+    display: flex;
+    justify-content: center;
+      flex-wrap: wrap;
+      margin: 1.5rem;
+    .procedure-img{
+        width: 50%;
+        img{
+            width: 90%;
+        }
+    }
+    .procedure-item{
+        h2{
+            text-align: center;
+            color: #04a927;
+            padding-bottom: 1.5rem;
+        }
+        .d-flex{
+            margin: 1rem 0 0.5rem 0;
+            i{
+                color: #04a927;
+                margin-right: 5px;
+                padding-top: 3px;
+            }
+            p{
+                margin-bottom: 0 !important;
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+        }
+        width: 50%;
+        padding-left: 10px;
+        
+    }
+}
+
+@media (max-width: 876px) {
+    .procedure{
+        .procedure-item{
+            width: 100% !important;
+        }
+    }
+  }
