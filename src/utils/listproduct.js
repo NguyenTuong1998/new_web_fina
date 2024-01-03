@@ -100,3 +100,7 @@ export const listProducts = [
         condition: "20 - 70"
     },
 ]
+
+export const listATM = [
+    {}
+]

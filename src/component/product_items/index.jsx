@@ -47,6 +47,10 @@ export default function ProductItem() {
                                         {/* {item.descProduct.split(",").map((items, index) => { */}
 
                                         <div class="info-offer">
+                                            <div className='d-flex mt-4' style={{color: "#eb0406"}}>
+                                                <i class="fa-solid fa-fire pt-1 pr-2"></i>
+                                                <p>Ưu đãi 0% lãi suất & phí, hỗ trợ trả góp.</p>
+                                            </div>
                                             <div class="infor flex-custom">
                                                 <div class="field-name">
                                                     <i class="fa-solid fa-money-check-dollar"></i>

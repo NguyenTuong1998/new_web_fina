@@ -1,11 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
-import Header from './header';
 import Banner from './banner';
 import ProductItem from './product_items';
-import Footer from './footer';
 import Need from './Need';
 import Procedure from './procedure';
+import ATM from './ATM';
 
 const App = () => {
     const [index, setIndex] = useState(0);
@@ -16,7 +15,14 @@ const App = () => {
     return (
         <div>
             <Banner />
+            <ATM/>
+            <div className='container'>
+                <hr/>
+            </div>
             <ProductItem />
+            <div className='container'>
+                <hr/>
+            </div>
             <Need/>
             <Procedure/>
         </div>

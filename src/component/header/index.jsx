@@ -18,6 +18,8 @@ export default function Header() {
                 <Navbar.Toggle className='menu' aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse   id="basic-navbar-nav">
                     <Nav className="mr-auto contact" style={{fontWeight: 500}}>
+                        <Nav.Link>Mở thẻ ngân hàng</Nav.Link>
+                        <Nav.Link>Mở thẻ tín dụng</Nav.Link>
                         <Nav.Link href="#home">Hướng Dẫn Vay</Nav.Link>
                         <Nav.Link href="#link">Về chúng tôi</Nav.Link>
                         <Nav.Link href="#link">Liên hệ</Nav.Link>
