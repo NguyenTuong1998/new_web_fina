@@ -14,8 +14,9 @@
         //     width: 50%;
         // }
         img{
-            height: 100px;
-            width: 200px;
+            margin-bottom: 1rem;
+            height: 45px;
+            width: 100px;
         }
         .social{
             i{
@@ -32,13 +33,72 @@
     }
     
     .about{
-        margin-top: 4px;
-        margin-bottom: 0;
+        display: flex;
+        margin-top: 3rem;
         border-bottom: 1px solid #e6e6e6;
-        p{
-            color: #999999;
-            font-size: 13px;
+        // p{
+        //     color: #999999;
+        //     font-size: 13px;
+        // }
+        .list_product{
+            width: 30%;
+            padding-left: 2rem;
+            img{
+                position: relative;
+                left: -5%;
+                top: 0;
+                margin: 1.5rem 0;
+                height: 75px;
+                width: 200px;
+            }
+            h2 {
+                font-size: 16px;
+                margin: 3.2rem 0;
+            }
+            .link{
+                text-decoration: none;
+                color: #000;
+                font-size: 16px;
+            }
+            .icon{
+                display: flex;
+                justify-content: start;
+                margin-left: 0 !important;
+                img{
+                    height: 20px;
+                    width: 20px;
+                    margin-left: 1rem;
+                }
+            }
         }
-        
+    }
+}
+
+
+@media (max-width: 876px) {
+    .about{
+        flex-wrap: wrap;
+
+        .list_product{
+            // .info{
+            //     display: none;
+            // }
+            width: 100% !important;
+            img{
+                height: 45px !important;
+                width: 70px;
+                left: 20% !important;
+            }
+            h2 {
+                margin: 2rem 0 !important;
+            }
+            .icon{
+                // justify-content: center !important;
+                img{
+                    height: 20px !important;
+                    width: 20px !important;
+                }
+            }
+        }
     }
 }
