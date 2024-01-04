@@ -1,7 +1,7 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import logo from "../asset/banner/logo3.png"
+import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import logo from "../asset/banner/logo2.png"
 import "./style.scss"
 export default function Header() {
     return (

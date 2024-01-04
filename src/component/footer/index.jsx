@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.scss"
-import logo from "../asset/banner/logo1.png"
+import logo from "../asset/banner/logo2.png"
 export default function Footer() {
     return (
         <div className='all-foot'>
