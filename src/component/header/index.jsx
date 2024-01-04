@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import logo from "../asset/banner/logo3.png"
+import { Link } from 'react-router-dom'
 import "./style.scss"
 export default function Header() {
     return (
@@ -18,11 +19,21 @@ export default function Header() {
                 <Navbar.Toggle className='menu' aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse   id="basic-navbar-nav">
                     <Nav className="mr-auto contact" style={{fontWeight: 500}}>
-                        <Nav.Link>Mở thẻ ngân hàng</Nav.Link>
-                        <Nav.Link>Mở thẻ tín dụng</Nav.Link>
-                        <Nav.Link href="#home">Hướng Dẫn Vay</Nav.Link>
-                        <Nav.Link href="#link">Về chúng tôi</Nav.Link>
-                        <Nav.Link href="#link">Liên hệ</Nav.Link>
+                        <Nav.Link>
+                            <Link className='title' to='danh-sach-atm'>Mở thẻ ngân hàng</Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link className='title' to='/danh-sach-khoan-vay'>Danh sách khoản vay</Link>
+                        </Nav.Link>
+                        <Nav.Link href="#home">
+                            <Link className='title' to='/danh-sach-khoan-vay'>Hướng Dẫn Vay</Link>
+                            </Nav.Link>
+                        <Nav.Link href="#link">
+                            <Link className='title' to='/danh-sach-khoan-vay'> Về chúng tôi</Link>
+                            </Nav.Link>
+                        <Nav.Link href="#link">
+                            <Link className='title' to='/danh-sach-khoan-vay'>Liên hệ</Link>
+                        </Nav.Link>
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

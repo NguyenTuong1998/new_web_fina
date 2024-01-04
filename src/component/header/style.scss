@@ -7,6 +7,10 @@
     .contact {
         position: relative;
         left: 50%;
+        .title{
+            text-decoration: none;
+            color: inherit;
+        }
     }
 
 }
@@ -36,5 +40,5 @@ button {
   }
 
   .menu{
-    background-color: #fff;
+    background-color: inherit;
   }

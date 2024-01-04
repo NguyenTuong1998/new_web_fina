@@ -6,6 +6,7 @@ export const listATM = [
         name: 'Thẻ MB - Ngân hàng quân đội',
         linkA: 'https://hyperlead.tech/hlt1CF',
         linkIO: 'https://hyperlead.tech/hlX9yw',
+        title: 'MB Bank - Hướng dẫn thủ tục làm thẻ ATM nhanh chóng',
         desc: [
             'App MBBank là ứng dụng của Ngân hàng Quân đội - MB bank, cho phép khách hàng thực hiện hầu hết giao dịch tài chính, thanh toán hàng ngày với thao tác đơn giản, thực hiện được mọi lúc, mọi nơi.',
             'Là ứng dụng được cài đặt trên điện thoại thông minh nên thường xuyên được nâng cấp,  mang đến trải nghiệm và sự thuận tiện tối ưu nhất cho khách hàng.',
@@ -33,6 +34,7 @@ export const listATM = [
         name: 'Thẻ Techcombank',
         linkA: 'https://hyperlead.tech/hlE69C',
         linkIO: 'https://hyperlead.tech/hlzuRg',
+        title: 'TechcomBank - Hướng dẫn thủ tục làm thẻ ATM nhanh chóng',
         desc: [
             'Ngân hàng thương mại cổ phần Kỹ Thương Việt Nam (hay còn được gọi là Techcombank) là một ngân hàng cổ phần thương mại của Việt Nam, được thành lập năm 1993 với số vốn ban đầu 20 tỷ đồng.',
             'Techcombank được nhiều tổ chức Việt Nam và quốc tế trao các giải thưởng về tài chính - ngân hàng, và được coi là một trong những ngân hàng uy tín hàng đầu tại Việt Nam.',
@@ -63,6 +65,7 @@ export const listATM = [
         name: 'Thẻ BIDV',
         linkA: 'https://hyperlead.tech/hlKWUW',
         linkIO: 'https://hyperlead.tech/hlKWUW',
+        title: 'BIDV Bank - Hướng dẫn thủ tục làm thẻ ATM nhanh chóng',
         desc: [
             'Với mục tiêu nâng cao trải nghiệm khách hàng, Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV) - chi nhánh Tây Hồ ra mắt Dịch vụ Ngân hàng số SmartBanking thế hệ mới với giao diện và các tiện ích mới cho phép Khách hàng thực hiện liền mạch các giao dịch tài chính và tiện ích số trên các kênh ngân hàng số của BIDV. ',
             'BIDV Tây Hồ là chi nhánh đứng số 1 hệ thống về ngân hàng số tại BIDV và là chi nhánh duy nhất có phòng dịch vụ ngân hàng số tính đến thời điểm hiện tại.',
@@ -97,6 +100,7 @@ export const listATM = [
         name: 'Thẻ Ngân hàng số Cake',
         linkA: 'https://hyperlead.tech/hlGtdX',
         linkIO: 'https://hyperlead.tech/hlSvVZ',
+        title: 'Cake Bank - Hướng dẫn thủ tục làm thẻ ATM nhanh chóng',
         desc: [
             'Cake by VPBank là một ngân hàng số miễn phí trọn đời với sứ mệnh mang tới cho khách hàng trải nghiệm dễ dàng, an toàn và bảo mật.',
             'Các đặc điểm của Cake by VPBank:',
@@ -130,6 +134,7 @@ export const listATM = [
         name: 'Thẻ VPBank',
         linkA: 'https://hyperlead.tech/hlKWUW',
         linkIO: 'https://hyperlead.tech/hlKWUW',
+        title: 'VP Bank - Hướng dẫn thủ tục làm thẻ ATM nhanh chóng',
         desc: [
             'Hiện tại ngừng hỗ trợ đăng ký thẻ',
             'VPBank là ngân hàng có tỷ lệ chuyển đổi số lớn nhất trên thị trường hiện nay. Kể từ tháng 7/2021, VPBank cho ra mắt Nền tảng Ngân hàng số toàn năng VPBank NEO để mang đến trải nghiệm hoàn toàn mới mẻ cho khách hàng sử dụng ngân hàng số.',
@@ -163,6 +168,7 @@ export const listATM = [
         name: 'VNPAY - tặng KH mới 50K',
         linkA: 'https://shorten.asia/3dSQrxYu',
         linkIO: 'https://shorten.asia/3dSQrxYu',
+        title: 'VNPAY - Hướng dẫn thủ tục mở thẻ thanh toán nhanh chóng',
         desc: [
             'VNPAY - Ví điện tử đầu tiên dành cho gia đình Việt, đáp ứng đa dạng nhu cầu thanh toán các dịch vụ hàng ngày của bạn và gia đình một cách nhanh chóng, tiện lợi, an toàn.',
             'Quản lý tiện lợi với Ví gia đình, mở ví thành viên cho người thân, đặt hạn mức và theo dõi chi tiêu dễ dàng. Mua sắm cùng VNPAYQR, quét mã VNPAYQR thanh toán siêu nhanh, nhận ưu đãi độc quyền tại hơn 150.000 điểm thanh toán cùng nhiều tính năng khác như chuyển tiền, Nạp tiền điện thoại, Thanh toán hóa đơn, Đặt vé máy bay, Đặt vé tàu, Gọi taxi…',

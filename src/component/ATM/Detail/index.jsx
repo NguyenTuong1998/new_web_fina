@@ -65,6 +65,7 @@ export default function DetailATM() {
                                 </div>
                 </div>
                 <div className='content-box'>
+                    <h1>{atm.title}</h1>
                     {atm.desc.map((item) => (
                         <p dangerouslySetInnerHTML={{ __html: item }}></p>
                     ))}

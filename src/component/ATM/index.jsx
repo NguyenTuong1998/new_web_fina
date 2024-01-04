@@ -6,7 +6,7 @@ import { listATM} from '../../utils/listATM';
 
 const IOS = 'IOS'
 const ANDROID = 'ANDROID'
-const limit = 3
+const limit = 2
 
 
 const getMobileOperatingSystem = () => {

@@ -4,7 +4,7 @@ import { listProducts } from '../../utils/listproduct'
 import { Link } from 'react-router-dom'
 import image from '../asset/image/2laisuat-2.png'
 
-const limit = 5
+const limit = 3
 export default function ProductItem() {
     const [limitList, setLimitList] = useState(limit)
     const [listProduct, setListProduce] = useState([])
