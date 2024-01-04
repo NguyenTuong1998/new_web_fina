@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { matchRoutes, useLocation, useParams } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import { listProducts } from '../../utils/listproduct';
 import { Link } from 'react-router-dom';
 import image from "../asset/image/2laisuat-2.png"
