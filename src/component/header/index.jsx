@@ -26,13 +26,13 @@ export default function Header() {
                             <Link className='title' to='/danh-sach-khoan-vay'>Danh sách khoản vay</Link>
                         </Nav.Link>
                         <Nav.Link href="#home">
-                            <Link className='title' to='/danh-sach-khoan-vay'>Hướng Dẫn Vay</Link>
+                            <Link className='title' to=''>Hướng Dẫn Vay</Link>
                             </Nav.Link>
                         <Nav.Link href="#link">
-                            <Link className='title' to='/danh-sach-khoan-vay'> Về chúng tôi</Link>
+                            <Link className='title' to=''> Về chúng tôi</Link>
                             </Nav.Link>
                         <Nav.Link href="#link">
-                            <Link className='title' to='/danh-sach-khoan-vay'>Liên hệ</Link>
+                            <Link className='title' to=''>Liên hệ</Link>
                         </Nav.Link>
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
