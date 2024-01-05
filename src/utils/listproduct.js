@@ -1,5 +1,14 @@
 export const listProducts = [
     {
+        id: 12,
+        imageProduct: "https://storage.googleapis.com/hyperlead-public/production/assets/offers/logo/0. LOGO.png",
+        nameProduct: "Easycash",
+        descProduct: "1.000.000 - 17.000.000đ, 91 - 182 ngày, 18%/năm",
+        linkProduct: "https://go.clickbuy.asia/click?a=32852&o=781",
+        detail: "Easycash là một cổng thông tin tài chính sáng tạo, cung cấp các khoản vay nhanh chóng. Các thuật toán nội bộ hiện đại của Easycash cho phép Easycash cung cấp cho khách hàng một khoản vay hoàn toàn thích ứng với nhu cầu và mong đợi của họ - trong thời gian tối đa là 15 phút. Với tỷ lệ chấp thuận gần 100% - hầu hết tất cả các đơn đều chắc chắn được vay. Sự thoải mái và độ tin cậy, hơn cả tiền Easycash có thể mang lại cho khách hàng sự công nhận. Do đó, khoản vay đầu tiên được cung cấp miễn phí. Easycash - thật nhanh chóng, dễ dàng và an toàn!",
+        condition: "20 - 55."
+    },
+    {
         id: 1,
         imageProduct: "https://storage.googleapis.com/hyperlead-public/production/assets/offers/credy.png",
         nameProduct: "Credy",
