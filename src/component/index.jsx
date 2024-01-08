@@ -15,11 +15,11 @@ const App = () => {
     return (
         <div>
             <Banner />
-            <ATM/>
+            <ProductItem />
             <div className='container'>
                 <hr/>
             </div>
-            <ProductItem />
+            <ATM/>
             <div className='container'>
                 <hr/>
             </div>
